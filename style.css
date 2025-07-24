@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body {
+  background-color: #f6f9fe;
+}
+ header{
+      width: 1140px;
+      margin: 0 auto;
+ }
+
+/* section-1 navbar  */
+
+.navbar{
+      margin-top: 20px;
+      margin-bottom: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+}
+.ul-list li{
+      list-style: none;
+      text-decoration: none;
+}
+.ul-list ul{
+      display: flex;
+      gap: 40px;
+      
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* hero-section  */
+
+
+.hero-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      font-family: noto;
+      margin-bottom: 140px;
+}
+.hero-content h1{
+      line-height: 1.25;
+      margin-bottom: 15px;
+}
+.hero-title span{
+      color: #E95A08;
+}
+.hero-content p{
+font-family: inter;
+}
+
+
+/* our plants section-2  */
+
+
+.our-plants{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+            font-family: noto;
+            margin-bottom: 200px;
+
+}
+.our-plants span{
+      color: #E95A08;
+}
+
+.our-plants h1{
+      margin-bottom: 10px;
+}
+.our-plants p{
+      margin-bottom: 40px;
+      font-family: inter;
+}
+.our-plants-grid{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      font-family: inter;
+}
+.our-plants-grid h4{
+      margin-top: 10px;
+      font-weight: 500;
+}
+.our-plants-grid h3{
+      font-weight: bolder;
+}
+.our-plants-grid button{
+      background-color: #E95A08;
+      padding: 5px 80px;
+      margin-top: 12px;
+      color: white;
+      margin-bottom: 10px;
+}
+
+
+/* plant-lover-s-3 */
+
+section .plant-lover-s-3{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 1140px;
+      margin-bottom: 80px;
+}
+.plant-lover-s-3 .trusted{
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      margin-top: -700px;
+    left: 780px;
+    font-family: inter;
+}
+.order-list{
+      padding: 15px;
+      font-family: noto;
+      font-size: large;
+}
+.flower-title{
+      line-height: 1.25;
+      font-family: noto;
+      color: #000000;
+}
+.order-list li{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-family: inter;
+}
+
+/* latest-deals-s-4  */
+
+
+
+.deals-section {
+  max-width: 1140px;
+  margin: auto;
+    font-family: noto;
+    margin-bottom: 80px;
+
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.section-header .highlight {
+  color:#E95A08;
+}
+
+.section-header p {
+  margin: 10px auto 40px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.deals-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.small-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.deal-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+}
+
+.deal-card.small {
+  height: 140px;
+}
+
+.deal-card.large {
+  flex: 2;
+  height: 300px;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Centered text and button */
+.overlay-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.overlay-content button {
+  font-size: 0.9rem;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+.overlay-content-title-large button{
+      font-size: 1.6rem;
+}
+.overlay-content-title-large h3{
+      font-size: 2.8rem;
+}
+
+
+/* Join the colorful Bunch section-5  */
+
+.s-5 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.colorful-s-5 {
+  position: relative;
+  width: 100%;
+  height: 400px; /* You can adjust */
+  overflow: hidden;
+}
+
+.colorful-s-img-5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.colorful-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  /* display: flex; */
+  flex-direction: column;
+  gap: 10px;
+}
+
+.colorful-title h1{
+      font-family: noto;
+}
+
+.colorful-title input {
+  padding: 10px;
+  margin-top: 20px;
+  width: 650px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(101, 101, 101);
+}
+
+.colorful-title button {
+  padding: 10px 15px;
+  background-color:#E95A08;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+    margin-top: 20px;
+    width: 220px;
+
+}
+.form{
+      display: flex;
+}
+
+
+
+/* footer-s-6  */
+
+
+.footer-s-6{
+      display: flex;
+      margin: 0 auto;
+      justify-content:flex-start;
+      width: 1120px;
+      /* align-items: center; */
+      margin-bottom: 50px;
+      gap: 150px;
+      font-family: inter;
+      color: #939393;
+}
+.footer-icons{
+      flex-direction: row;
+      display: flex;
+      width: 30px;
+      height: 30px;
+      gap: 30px;
+      /* top: 0; */
+}
+ section .s-6{
+      width: 1120px;
+       margin: 0 auto;
+}
+.footer-li li{
+      margin-bottom: 25px;
+}
+.footer-s-6 p{
+      margin-top: 15px;
+}
