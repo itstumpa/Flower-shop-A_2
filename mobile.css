@@ -16,15 +16,15 @@ html, body {
   margin: 0;
   /* padding: 10px; */
   overflow-x: hidden;
-  background-color: rgb(220, 193, 246);
+  /* background-color: rgb(220, 193, 246); [for check the responsiveness] */
   max-width: 100%;
 } 
 
 .navbar{
       margin-bottom:120px ;
-      margin-top: 0px;
+      margin-top: 10px;
       align-items: center;
-      padding: 20px;
+      padding: 10px 5px 0px 10px;
       position: absolute;
       /* width: 100%; */
 }
