@@ -69,7 +69,7 @@ html, body {
 }
 
 .our-plants{
-margin-bottom: 30px;
+margin-bottom: 20px;
 padding: 20px;
 width: 100%;
 }
@@ -79,26 +79,20 @@ width: 100%;
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
       width: 100%;
-
-      /* gap: 10px; */
 }
 
 .our-plants-grid button{
       font-size: 10px;
       padding: 12px 45px;
        white-space: nowrap;
-      /* width: 80px; */
-      /* margin-top: 12px; */
-      /* color: white; */
-      /* margin-bottom: 10px; */
-
 }
 
 section .plant-lover-s-3{
-      /* justify-content: space-between; */
       margin-bottom: 0px;
       flex-direction: column;
-      width: 365px;
+      /* width: 450px; */
+      width: 100%; /*[its worked great]*/
+      padding: 20px;
       height: auto;
 }
 
